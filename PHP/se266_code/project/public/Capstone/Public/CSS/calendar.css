@@ -1,0 +1,9 @@
+#calendar{height: 522pt; width: 532pt; background-color: #FAFDFC ; border-radius: 3pt; margin:auto; border: 1.5pt solid #47525E; color: #47525E; padding-left:calc((532pt/8)/7); margin-bottom: 30pt;}
+#calendar-nav{display: flex;height: 22.01pt; height: 107.25pt; flex-direction: row; justify-content: center; border-bottom: 2pt solid #47525E}
+#leftarrow{display: flex; justify-content: flex-start; height: 22pt;transform: rotate(90deg);margin-top: 40pt;}
+#month{text-align: center; width:  330.12pt; height: 42.53pt; font-size: 40pt;}
+#year{}
+#rightarrow{display: flex; justify-content: flex-end; height: 22pt;transform: rotate(270deg); margin-top: 40pt;}
+#weekdays{display: flex; height: 38.67pt; flex-direction: row; justify-content: space-around;}
+#days{display: flex; height:311pt; justify-content: space-evenly; flex-wrap: wrap;}
+.day{ width:calc(100%/8); margin-right: calc((100%/8)/7);  height:46.4pt; background-color: #E0E6ED; color:#47525E; font-size: 35pt; text-align: center;}

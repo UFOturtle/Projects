@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+html
+{
+    background-color: #F0F0F0;
+}
+#loginpage
+{
+font-family: 'Oswald', sans-serif;
+display: flex;
+flex-direction: column;
+color: #47525E;
+background-color: #F0F0F0;
+align-items: center;
+}
+#logo
+{
+    height: 200pt;
+}
+#login-header
+{
+    font-size: 50pt;
+}
+#Login
+{
+    display: flex;
+    flex-direction: column;
+}
+#login-error
+{
+    color: crimson;
+    font-size: 25pt;
+}
+#email
+{
+    width: 259pt;
+    height: 91pt;
+    border-radius: 2.5pt;
+    background-color: #F5F5F5;
+    border: .5pt solid #303030;
+    font-size: 25pt;
+    text-align: center;
+    color: #47525E;
+}
+#password
+{
+    text-align: center;
+    width: 259pt;
+    height: 91pt;
+    border-radius: 2.5pt;
+    background-color: #F5F5F5;
+    border: .5pt solid #303030;
+    font-size: 25pt;
+    color: #47525E;
+    margin-top: 30pt;
+}
+#login-btn
+{
+    margin-top: 80pt;
+    width: 259pt;
+    height: 91pt;
+    border-radius: 2.5pt;
+    background-color: #47525E;
+    border: .5pt solid #303030;
+    font-size: 25pt;
+    text-align: center;
+    color: white;
+}

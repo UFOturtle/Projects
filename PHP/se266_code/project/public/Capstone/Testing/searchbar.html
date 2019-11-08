@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="jquery-3.4.1.slim.js"></script>
+</head>
+              <style>
+                #search-bar {
+                    border: 1.5pt solid #8492A6;
+                    height: 46.91pt;
+                    width: 436pt;
+                }
+                #search-icon{
+                    height: 16.92pt;
+                    width: 17.16pt; 
+                }
+                #search-text-box{
+                    width: 400pt;
+                    height: 31.61pt;
+                    font-size: 25pt;
+                    color: #8492A6;
+                }
+                
+            </style>
+            
+            <div id="search-bar">
+                <img src="images/Search-Icon.png" alt="Search" id="search-icon">
+                <input id="search-text-box" type="text" placeholder="Search Foods">
+            </div>
+            <script>
+                $("#search-text-box").keypress(function(){
+                    console.log(this.value);
+                    var food = this.value;
+                    httpRequest = new XMLHttpRequest();
+    
+                    if (!httpRequest) {
+                    alert('Giving up :( Cannot create an XMLHTTP instance');
+                    return false;
+                    }
+    
+                    httpRequest.onreadystatechange = displayContents;
+                    httpRequest.open('GET', 'Models/model.php?q=' + encodeURIComponent(food));
+                    httpRequest.send('q=' + encodeURIComponent(food));
+                });
+            
+            
+            
+                </script>
+</html>
+

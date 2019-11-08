@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+#servingsT{
+    color: #47525E;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40pt;
+}
+
+#servingsmsg{
+     font-family: 'Oswald', sans-serif;
+     font-size: 20pt;
+     color: #47525E;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+     font-size: 20pt;
+     color: #47525E;
+}
+
+#fn{
+    font-family: 'Oswald', sans-serif;
+     font-size: 20pt;
+     color: #47525E;
+     border: 0px;
+     background-color: #F0F0F0;
+}
+
+#c{
+    font-family: 'Oswald', sans-serif;
+     font-size: 20pt;
+     color: #47525E;
+     border: 0px;
+     background-color: #F0F0F0;
+}
+
+#cancel-icon{
+    width: 80pt;
+    margin-right: 100pt;
+}
+
+#servings{
+    width:130pt;
+    height: 90pt;
+    color: #47525E;
+    font-size: 40pt;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#confirm-icon{ 
+    width: 80pt;
+    margin-left: 100pt;
+}
+
+#enterS{
+    display:flex;
+    flex-direction: Column;
+    align-items: center;
+    
+}
+
+#values{
+    font-size: 20pt;
+    color: #47525E;
+    align-items: center;
+    margin-bottom: 100 pt;
+}
+
+#serving-inputs {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

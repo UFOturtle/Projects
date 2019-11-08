@@ -1,0 +1,33 @@
+
+.item{
+    width: 525pt;
+    border: 1pt solid #47525E;
+    display: flex;
+    margin-top: 30pt;
+    justify-content: space-between;
+    border-radius: 7.5pt;
+    margin: auto;
+    align-content: center;
+}
+.FoodPicItem{
+    height: 62pt;
+    border: .5pt solid #47525E;
+}
+.FoodInfoItem{
+    font-size: 25pt;
+}
+.TotalCalItem{
+    font-size: 25pt;
+}
+.EditItem{
+    width: 47pt;
+    height:47pt;
+}
+.RemoveItem{
+    width: 47pt;
+    height:47pt;
+}
+#Content
+{
+    margin-top: 70pt;
+}

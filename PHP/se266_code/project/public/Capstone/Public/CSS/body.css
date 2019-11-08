@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+body
+{
+    font-family: 'Oswald', sans-serif;
+    background-color: #F0F0F0;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+}
+<!--Login Page Css -->
+html
+{
+    background-color: #F0F0F0;
+}
+#loginpage
+{
+font-family: 'Oswald', sans-serif;
+display: flex;
+flex-direction: column;
+color: #47525E;
+background-color: #F0F0F0;
+align-items: center;
+}
+#logo
+{
+    height: 200pt;
+}
+#login-header
+{
+    font-size: 50pt;
+}
+#Login
+{
+    display: flex;
+    flex-direction: column;
+}
+#login-error
+{
+    color: crimson;
+    font-size: 25pt;
+}
+#email
+{
+    width: 259pt;
+    height: 91pt;
+    border-radius: 2.5pt;
+    background-color: #F5F5F5;
+    border: .5pt solid #303030;
+    font-size: 25pt;
+    text-align: center;
+    color: #47525E;
+}
+#password
+{
+    text-align: center;
+    width: 259pt;
+    height: 91pt;
+    border-radius: 2.5pt;
+    background-color: #F5F5F5;
+    border: .5pt solid #303030;
+    font-size: 25pt;
+    color: #47525E;
+    margin-top: 30pt;
+}
+#login-btn
+{
+    margin-top: 80pt;
+    width: 259pt;
+    height: 91pt;
+    border-radius: 2.5pt;
+    background-color: #47525E;
+    border: .5pt solid #303030;
+    font-size: 25pt;
+    text-align: center;
+    color: white;
+}
+
+
+<!--Searchbar Page Css -->
+html {
+        font-family: 'Oswald', sans-serif;
+    }
+    #search-bar {
+        
+        border: 1.5pt solid #8492A6;
+        height: 46.91pt;
+        width: 436pt;
+        display: flex;
+        justify-content: space-between;
+        background-color: #FAFDFC;
+    }
+    #search-icon{
+        height: 16.92pt;
+        width: 17.16pt; 
+    }
+    #search-text-box{
+        height: 46.91pt;
+        width: 436pt;
+        font-size: 25pt;
+        color: #8492A6;
+        background-color: #FAFDFC;
+        border: 0px;
+    }
+    input{
+        font-family: 'Oswald', sans-serif;
+    }
+    #resultDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20pt;
+    }
+    .result{
+    float: left;
+    Width: 525pt;
+    border-radius: 7.5pt;
+    color: #47525E;
+    border: 1pt solid #47525E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10px 0 10px;
+    
+    }
+    .foodpic{
+     
+        height: 79pt;
+    }
+    .foodname{
+        font-size: 25pt;
+        font-family: 'Oswald', sans-serif;
+        padding:0px;
+        margin:0px;
+    }
+    .text{
+     
+        width: 360pt;
+    }
+    .add{
+        width: 47pt;
+        height:47pt;
+    }
+    
+    
+    <!--Calendar Page Css -->
+    #calendar{height: 522pt; width: 532pt; background-color: #FAFDFC ; border-radius: 3pt; margin:auto; border: 1.5pt solid #47525E; color: #47525E; padding-left:calc((532pt/8)/7); margin-bottom: 30pt;}
+#calendar-nav{display: flex;height: 22.01pt; height: 107.25pt; flex-direction: row; justify-content: center; border-bottom: 2pt solid #47525E}
+#leftarrow{display: flex; justify-content: flex-start; height: 22pt;transform: rotate(90deg);margin-top: 40pt;}
+#month{text-align: center; width:  330.12pt; height: 42.53pt; font-size: 40pt;}
+#year{}
+#rightarrow{display: flex; justify-content: flex-end; height: 22pt;transform: rotate(270deg); margin-top: 40pt;}
+#weekdays{display: flex; height: 38.67pt; flex-direction: row; justify-content: space-around;}
+#days{display: flex; height:311pt; justify-content: space-evenly; flex-wrap: wrap;}
+.day{ width:calc(100%/8); margin-right: calc((100%/8)/7);  height:46.4pt; background-color: #E0E6ED; color:#47525E; font-size: 35pt; text-align: center;}
+    <!--Foodlist Page Css -->
+    #calendar{height: 522pt; width: 532pt; background-color: #FAFDFC ; border-radius: 3pt; margin:auto; border: 1.5pt solid #47525E; color: #47525E; padding-left:calc((532pt/8)/7); margin-bottom: 30pt;}
+#calendar-nav{display: flex;height: 22.01pt; height: 107.25pt; flex-direction: row; justify-content: center; border-bottom: 2pt solid #47525E}
+#leftarrow{display: flex; justify-content: flex-start; height: 22pt;transform: rotate(90deg);margin-top: 40pt;}
+#month{text-align: center; width:  330.12pt; height: 42.53pt; font-size: 40pt;}
+#year{}
+#rightarrow{display: flex; justify-content: flex-end; height: 22pt;transform: rotate(270deg); margin-top: 40pt;}
+#weekdays{display: flex; height: 38.67pt; flex-direction: row; justify-content: space-around;}
+#days{display: flex; height:311pt; justify-content: space-evenly; flex-wrap: wrap;}
+.day{ width:calc(100%/8); margin-right: calc((100%/8)/7);  height:46.4pt; background-color: #E0E6ED; color:#47525E; font-size: 35pt; text-align: center;}
+
+
+<!--foodlist Css-->
+.item{
+    width: 525pt;
+    border: 1pt solid #47525E;
+    display: flex;
+    margin-top: 30pt;
+    justify-content: space-between;
+    border-radius: 7.5pt;
+    margin: auto;
+    align-content: center;
+    padding: 20pt;
+}
+.FoodPicItem{
+    height: 62pt;
+    border: .5pt solid #47525E;
+}
+.FoodInfoItem{
+    font-size: 25pt;
+}
+.TotalCalItem{
+    font-size: 25pt;
+}
+.EditItem{
+    width: 47pt;
+    height:47pt;
+}
+.RemoveItem{
+    width: 47pt;
+    height:47pt;
+}
+#Content
+{
+    margin-top: 70pt;
+}
+
+<!--enter servings Css-->
+#servingsT{
+    color: #47525E;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40pt;
+}
+
+#servingsmsg{
+     font-family: 'Oswald', sans-serif;
+     font-size: 20pt;
+     color: #47525E;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+     font-size: 20pt;
+     color: #47525E;
+}
+
+#fn{
+    font-family: 'Oswald', sans-serif;
+     font-size: 20pt;
+     color: #47525E;
+     border: 0px;
+     background-color: #F0F0F0;
+}
+
+#c{
+    font-family: 'Oswald', sans-serif;
+     font-size: 20pt;
+     color: #47525E;
+     border: 0px;
+     background-color: #F0F0F0;
+}
+
+#cancel-icon{
+    width: 80pt;
+    margin-right: 100pt;
+}
+
+#servings{
+    width:130pt;
+    height: 90pt;
+    color: #47525E;
+    font-size: 40pt;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#confirm-icon{ 
+    width: 80pt;
+    margin-left: 100pt;
+}
+
+#enterS{
+    display:flex;
+    flex-direction: Column;
+    align-items: center;
+    
+}
+
+#values{
+    font-size: 20pt;
+    color: #47525E;
+    align-items: center;
+    margin-bottom: 100 pt;
+}
+
+#serving-inputs {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+<!--logout button Css-->
+#logout{
+    #logout{
+    height: 60pt;
+    width: 70pt;
+}
+}
+
