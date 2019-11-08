@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Practical</title>
+<style type="text/css">
+	section{
+		
+		margin-bottom:25px;
+	}
+	
+	section section{
+		width:100%;
+		float:left;
+		border:1px solid black;
+	}
+	#main-content section{
+		width:33%;
+		float:left
+	}
+	
+	#main-content{
+	margin-bottom:25px;
+	}
+</style>
+</head>
+<body>
+<div id="main-content">
+<section id="database-analyst-area" >
+<h2>Database Analyst</h2>
+	<h3>First Name:</h3>
+	<div class="first"></div>
+	<h3>Last Name:</h3>
+	<div class="last"></div>
+	<h3>Highest Paid Salary</h3>
+	<div class="analysthighest"></div>
+	<h3>Highest Average Paid Salery</h3>
+	<h3 class="analyst-average"></h3>
+</section >
+
+<section  id="web-developer-area" >
+<h2>Web Developer</h2>
+	<h3>First Name:</h3>
+	<div class="first"></div>
+	<h3>Last Name:</h3>
+	<div class="last"></div>
+	<h3>Highest Paid Salary</h3>
+	<div class="highest"></div>
+	<h3>Highest Average Paid Salery</h3>
+	<h3 class="web-average"></h3>
+</section >
+
+<section  id="software-engineer-area">
+<h2>Software Engineer</h2>
+	<h3>First Name:</h3>
+	<div class="first"></div>
+	<h3>Last Name:</h3>
+	<div class="last"></div>
+	<h3>Highest Paid Salary</h3>
+	<div class="highest"></div>
+	<h3>Highest Average Paid Salery</h3>
+	<h3 class="software-average"></h3>
+</section >
+</div>
+<section  id="search-area">
+	<input type="text" placeholder="First Name" id="first-name">
+	<input type="text" placeholder="Last Name" id="last-name">
+	<input type="button" id="search-submit" value="search">
+	<section id="search-output">
+	<h2>Search Output</h2>
+	<div class="output">
+		<!--Output search info to here.-->
+	</div>
+	</section>
+</section >
+
+<section  id="list-area">
+	<input type="button" value="List Database Analysts" id="list-database-analyst">
+	<input type="button" value="List Web Developers" id="list-web-developer">
+	<input type="button" value="List Software Engineers" id="list-software-engineer" >
+	<section id="list-output">
+	<h2>List Output</h2>
+		<div class="output">
+			<!--Output list info to here.-->
+		</div>
+	</section>
+</section >
+
+</body>
+<script src="ajax.js"></script>
+</html>
